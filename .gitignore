@@ -1,0 +1,48 @@
+# --- General & OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- Python & Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+backend/venv/
+
+# --- React & Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Machine Learning & Data ---
+# Ignore large datasets
+dataset/
+emosense-local/dataset/
+
+# Ignore trained models (they are often too large for GitHub)
+*.h5
+*.keras
+*.tflite
+ml-engine/emosense_cnn.h5
+backend/models/
+
+# --- Environment Variables (Security) ---
+.env
+backend/.env
+frontend/.env
+
+# --- Ollama / Local AI ---
+# If you have any local model weights saved in the project
+ollama_models/
