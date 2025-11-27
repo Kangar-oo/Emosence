@@ -1,8 +1,3 @@
-Here is a professional, industry-standard **`README.md`** file for your project. This document serves as the "homepage" for your codebase, explaining what it is, how it works, and exactly how to run it.
-
-Create a file named **`README.md`** in your root `emosense-local/` folder and paste the content below.
-
-````markdown
 # 🧠 EmoSense Local: Full-Stack Independent AI
 
 **EmoSense Local** is a privacy-first, multimodal mental health assistant that runs entirely offline. It uses a **custom Convolutional Neural Network (CNN)** to detect facial emotions in real-time and a **local Large Language Model (Llama 3)** to generate empathetic, context-aware responses.
@@ -149,6 +144,3 @@ npm run dev
 This is an open-source educational project. Feel free to fork it, improve the CNN accuracy, or integrate different local LLMs\!
 
 **License:** MIT
-
-```
-```
